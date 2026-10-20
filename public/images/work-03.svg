@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="Signal Bloom sample artwork">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#eae4d8"/>
+      <stop offset="1" stop-color="#f9f6f0"/>
+    </linearGradient>
+    <radialGradient id="core3" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#2f4ac7" stop-opacity="0.42"/>
+      <stop offset="0.4" stop-color="#2f4ac7" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#2f4ac7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ray3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2f4ac7" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#2f4ac7" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ray3b" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b4724a" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#b4724a" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#bg3)"/>
+
+  <!-- rings -->
+  <g fill="none" stroke="#1b1d22" stroke-opacity="0.16">
+    <circle cx="800" cy="500" r="110" stroke-dasharray="3 10"/>
+    <circle cx="800" cy="500" r="205" stroke-dasharray="3 10"/>
+    <circle cx="800" cy="500" r="305" stroke-dasharray="3 10"/>
+    <circle cx="800" cy="500" r="420" stroke-dasharray="3 10"/>
+  </g>
+
+  <!-- rays -->
+  <g stroke-width="2.6" stroke-linecap="round">
+    <path d="M800 500 L1140 300" stroke="url(#ray3)"/>
+    <path d="M800 500 L1230 470" stroke="url(#ray3b)"/>
+    <path d="M800 500 L1150 700" stroke="url(#ray3)"/>
+    <path d="M800 500 L860 890" stroke="url(#ray3b)"/>
+    <path d="M800 500 L520 830" stroke="url(#ray3)"/>
+    <path d="M800 500 L400 640" stroke="url(#ray3b)"/>
+    <path d="M800 500 L370 420" stroke="url(#ray3)"/>
+    <path d="M800 500 L480 210" stroke="url(#ray3b)"/>
+    <path d="M800 500 L760 110" stroke="url(#ray3)"/>
+  </g>
+
+  <!-- landings -->
+  <g fill="#2f4ac7">
+    <circle cx="1140" cy="300" r="8"/><circle cx="1230" cy="470" r="6"/>
+    <circle cx="1150" cy="700" r="7"/><circle cx="860" cy="890" r="5"/>
+    <circle cx="520" cy="830" r="8"/><circle cx="400" cy="640" r="6"/>
+    <circle cx="370" cy="420" r="7"/><circle cx="480" cy="210" r="6"/>
+    <circle cx="760" cy="110" r="8"/>
+  </g>
+  <g fill="#b4724a" fill-opacity="0.65">
+    <circle cx="1010" cy="360" r="5"/><circle cx="1060" cy="600" r="5"/>
+    <circle cx="640" cy="700" r="5"/><circle cx="560" cy="380" r="5"/>
+    <circle cx="820" cy="760" r="5"/><circle cx="900" cy="220" r="5"/>
+    <circle cx="700" cy="250" r="5"/><circle cx="1180" cy="560" r="4"/>
+    <circle cx="440" cy="520" r="4"/>
+  </g>
+
+  <!-- core -->
+  <circle cx="800" cy="500" r="330" fill="url(#core3)"/>
+  <circle cx="800" cy="500" r="42" fill="none" stroke="#1b1d22" stroke-opacity="0.6" stroke-width="2.4"/>
+  <circle cx="800" cy="500" r="74" fill="none" stroke="#2f4ac7" stroke-opacity="0.5" stroke-width="1.8"/>
+
+  <g font-family="monospace" font-size="21" letter-spacing="3" fill="#5d6068">
+    <text x="62" y="86">WORK 03 — SIGNAL BLOOM</text>
+    <text x="62" y="950">INTERACTIVE EXPERIMENT / SAMPLE PROJECT</text>
+    <text x="1538" y="950" text-anchor="end">FACE CAMERA</text>
+  </g>
+</svg>

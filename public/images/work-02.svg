@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="Nightline District sample artwork">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4efe5"/>
+      <stop offset="0.55" stop-color="#e4ded1"/>
+      <stop offset="1" stop-color="#cfc7b8"/>
+    </linearGradient>
+    <linearGradient id="ribbon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2f4ac7" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#2f4ac7" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#b4724a" stop-opacity="0.1"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="64%" r="40%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <rect width="1600" height="1000" fill="url(#sun)"/>
+
+  <!-- building masses -->
+  <g fill="#1b1d22" fill-opacity="0.07">
+    <rect x="0" y="200" width="240" height="600"/>
+    <rect x="250" y="320" width="160" height="480"/>
+    <rect x="1360" y="240" width="240" height="560"/>
+    <rect x="1220" y="360" width="140" height="440"/>
+  </g>
+  <g stroke="#1b1d22" stroke-opacity="0.24" stroke-width="1.5" fill="none">
+    <rect x="0" y="200" width="240" height="600"/>
+    <rect x="250" y="320" width="160" height="480"/>
+    <rect x="1360" y="240" width="240" height="560"/>
+    <rect x="1220" y="360" width="140" height="440"/>
+  </g>
+  <g fill="#b4724a" fill-opacity="0.3">
+    <rect x="40" y="260" width="22" height="34"/>
+    <rect x="96" y="260" width="22" height="34"/>
+    <rect x="152" y="330" width="22" height="34"/>
+    <rect x="1440" y="300" width="22" height="34"/>
+    <rect x="1500" y="370" width="22" height="34"/>
+    <rect x="1268" y="420" width="22" height="34"/>
+  </g>
+
+  <!-- perspective street lines -->
+  <g stroke="#1b1d22" stroke-opacity="0.2" stroke-width="1.6">
+    <path d="M0 1000 L660 640"/>
+    <path d="M280 1000 L720 640"/>
+    <path d="M640 1000 L760 640"/>
+    <path d="M960 1000 L840 640"/>
+    <path d="M1320 1000 L880 640"/>
+    <path d="M1600 1000 L940 640"/>
+  </g>
+  <g stroke="#1b1d22" stroke-opacity="0.1" stroke-width="1.2">
+    <path d="M420 860 H1180"/>
+    <path d="M520 780 H1080"/>
+    <path d="M590 720 H1010"/>
+    <path d="M640 675 H960"/>
+  </g>
+
+  <!-- reactive ribbons -->
+  <path d="M120 720 Q520 560 820 640 T1500 520" fill="none" stroke="url(#ribbon)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M60 820 Q460 700 780 760 T1540 660" fill="none" stroke="url(#ribbon)" stroke-width="7" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- horizon + reticle -->
+  <line x1="0" y1="640" x2="1600" y2="640" stroke="#2f4ac7" stroke-opacity="0.45" stroke-width="2"/>
+  <g stroke="#2f4ac7" stroke-width="2.4" fill="none">
+    <path d="M760 584 h-38 v-38"/>
+    <path d="M840 584 h38 v-38"/>
+    <path d="M760 696 h-38 v38"/>
+    <path d="M840 696 h38 v38"/>
+  </g>
+  <circle cx="800" cy="640" r="7" fill="#2f4ac7"/>
+
+  <g font-family="monospace" font-size="21" letter-spacing="3" fill="#5d6068">
+    <text x="62" y="86">WORK 02 — NIGHTLINE DISTRICT</text>
+    <text x="62" y="950">WORLD EXPERIENCE / SAMPLE PROJECT</text>
+    <text x="1538" y="950" text-anchor="end">REAR CAMERA</text>
+  </g>
+</svg>

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1250" viewBox="0 0 1000 1250" role="img" aria-label="Luminous Veil sample artwork">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#f9f6f0"/>
+      <stop offset="1" stop-color="#e8e2d6"/>
+    </linearGradient>
+    <linearGradient id="veil1" x1="0" y1="0" x2="1" y2="0.4">
+      <stop offset="0" stop-color="#2f4ac7" stop-opacity="0.10"/>
+      <stop offset="0.5" stop-color="#2f4ac7" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#2f4ac7" stop-opacity="0.06"/>
+    </linearGradient>
+    <linearGradient id="veil2" x1="0" y1="0" x2="1" y2="0.3">
+      <stop offset="0" stop-color="#b4724a" stop-opacity="0.12"/>
+      <stop offset="0.6" stop-color="#2f4ac7" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#2f4ac7" stop-opacity="0.04"/>
+    </linearGradient>
+    <radialGradient id="lamp" cx="62%" cy="16%" r="52%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="headClip"><ellipse cx="500" cy="620" rx="238" ry="310"/></clipPath>
+  </defs>
+
+  <rect width="1000" height="1250" fill="url(#bg)"/>
+  <rect width="1000" height="1250" fill="url(#lamp)"/>
+
+  <!-- faint grid -->
+  <g stroke="#1b1d22" stroke-opacity="0.05" stroke-width="1">
+    <path d="M0 250 H1000 M0 500 H1000 M0 750 H1000 M0 1000 H1000"/>
+    <path d="M250 0 V1250 M500 0 V1250 M750 0 V1250"/>
+  </g>
+
+  <!-- veil planes -->
+  <g clip-path="url(#headClip)">
+    <path d="M262 430 Q500 350 738 445 L738 520 Q500 425 262 500 Z" fill="url(#veil1)"/>
+    <path d="M262 560 Q500 480 738 575 L738 650 Q500 555 262 630 Z" fill="url(#veil2)"/>
+    <path d="M262 690 Q500 610 738 705 L738 780 Q500 685 262 760 Z" fill="url(#veil1)"/>
+    <path d="M262 820 Q500 740 738 835 L738 910 Q500 815 262 890 Z" fill="url(#veil2)"/>
+  </g>
+
+  <!-- head outline -->
+  <ellipse cx="500" cy="620" rx="238" ry="310" fill="none" stroke="#1b1d22" stroke-opacity="0.4" stroke-width="2"/>
+  <ellipse cx="500" cy="620" rx="280" ry="360" fill="none" stroke="#2f4ac7" stroke-opacity="0.34" stroke-width="1.5" stroke-dasharray="5 12"/>
+
+  <!-- contours -->
+  <g stroke="#1b1d22" stroke-opacity="0.14" stroke-width="1">
+    <path d="M262 620 H738"/>
+    <path d="M500 310 V930"/>
+  </g>
+  <g stroke="#2f4ac7" stroke-opacity="0.36" stroke-width="1.4" fill="none">
+    <path d="M276 480 Q500 415 724 480"/>
+    <path d="M276 760 Q500 825 724 760"/>
+  </g>
+
+  <!-- features -->
+  <g stroke="#1b1d22" fill="none" stroke-linecap="round">
+    <path d="M400 562 q26 -19 52 0" stroke-opacity="0.55" stroke-width="3.5"/>
+    <path d="M548 562 q26 -19 52 0" stroke-opacity="0.55" stroke-width="3.5"/>
+    <path d="M440 760 q60 34 120 0" stroke-opacity="0.34" stroke-width="2.6"/>
+  </g>
+
+  <!-- landmarks -->
+  <g fill="#2f4ac7">
+    <circle cx="262" cy="620" r="7"/><circle cx="738" cy="620" r="7"/>
+    <circle cx="500" cy="310" r="7"/><circle cx="500" cy="930" r="7"/>
+    <circle cx="400" cy="562" r="6"/><circle cx="452" cy="562" r="6"/>
+    <circle cx="548" cy="562" r="6"/><circle cx="600" cy="562" r="6"/>
+    <circle cx="500" cy="680" r="6"/><circle cx="440" cy="760" r="6"/><circle cx="560" cy="760" r="6"/>
+  </g>
+
+  <!-- annotations -->
+  <g font-family="monospace" font-size="21" letter-spacing="3" fill="#5d6068">
+    <text x="62" y="86">WORK 01 — LUMINOUS VEIL</text>
+    <text x="62" y="1198">FACE FILTER / SAMPLE PROJECT</text>
+    <text x="938" y="1198" text-anchor="end">LENS STUDIO</text>
+  </g>
+  <rect x="62" y="108" width="46" height="3" fill="#2f4ac7"/>
+</svg>

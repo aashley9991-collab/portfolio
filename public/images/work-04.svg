@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1250" viewBox="0 0 1000 1250" role="img" aria-label="Paper Orbit sample artwork">
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#f7f3ec"/>
+      <stop offset="1" stop-color="#e3ddd0"/>
+    </linearGradient>
+    <linearGradient id="p4a" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f4ac7" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#2f4ac7" stop-opacity="0.12"/>
+    </linearGradient>
+    <linearGradient id="p4b" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b4724a" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#b4724a" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="1250" fill="url(#bg4)"/>
+
+  <!-- orbit paths -->
+  <g fill="none" stroke="#1b1d22" stroke-opacity="0.2" stroke-width="1.4">
+    <ellipse cx="500" cy="620" rx="330" ry="150" transform="rotate(-18 500 620)" stroke-dasharray="4 11"/>
+    <ellipse cx="500" cy="620" rx="270" ry="330" transform="rotate(24 500 620)" stroke-dasharray="4 11"/>
+    <ellipse cx="500" cy="620" rx="380" ry="240" transform="rotate(8 500 620)"/>
+  </g>
+
+  <!-- low-poly forms -->
+  <g stroke="#1b1d22" stroke-opacity="0.45" stroke-width="1.4" fill="none">
+    <polygon points="500,300 620,420 500,470 380,420" fill="url(#p4a)"/>
+    <polygon points="640,690 760,760 660,850 560,780" fill="url(#p4b)"/>
+    <polygon points="300,540 400,590 350,690 250,640" fill="url(#p4a)"/>
+    <polygon points="470,880 560,930 480,1010 400,950" fill="url(#p4b)"/>
+    <polygon points="700,430 780,470 730,540 660,500" fill="url(#p4a)"/>
+  </g>
+
+  <!-- fold shading -->
+  <g fill="#1b1d22" fill-opacity="0.08">
+    <polygon points="500,300 620,420 500,470"/>
+    <polygon points="300,540 400,590 350,690"/>
+  </g>
+
+  <!-- centre -->
+  <circle cx="500" cy="620" r="9" fill="#2f4ac7"/>
+  <circle cx="500" cy="620" r="66" fill="none" stroke="#2f4ac7" stroke-opacity="0.45" stroke-width="1.4" stroke-dasharray="3 9"/>
+
+  <g font-family="monospace" font-size="21" letter-spacing="3" fill="#5d6068">
+    <text x="62" y="86">WORK 04 — PAPER ORBIT</text>
+    <text x="62" y="1198">AR EFFECT / SAMPLE PROJECT</text>
+    <text x="938" y="1198" text-anchor="end">SPRING · 0.8</text>
+  </g>
+  <rect x="62" y="108" width="46" height="3" fill="#b4724a"/>
+</svg>

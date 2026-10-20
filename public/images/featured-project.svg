@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100" role="img" aria-label="Luminous Veil case study preview">
+  <defs>
+    <linearGradient id="cbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8f5ef"/>
+      <stop offset="0.55" stop-color="#ebe5d9"/>
+      <stop offset="1" stop-color="#dcd5c6"/>
+    </linearGradient>
+    <linearGradient id="cveil" x1="0" y1="0" x2="1" y2="0.4">
+      <stop offset="0" stop-color="#2f4ac7" stop-opacity="0.1"/>
+      <stop offset="0.5" stop-color="#2f4ac7" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#2f4ac7" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="cveil2" x1="0" y1="0" x2="1" y2="0.3">
+      <stop offset="0" stop-color="#b4724a" stop-opacity="0.14"/>
+      <stop offset="0.6" stop-color="#2f4ac7" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#2f4ac7" stop-opacity="0.04"/>
+    </linearGradient>
+    <radialGradient id="clamp" cx="60%" cy="14%" r="54%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="chead"><ellipse cx="740" cy="560" rx="258" ry="336"/></clipPath>
+  </defs>
+
+  <rect width="1600" height="1100" fill="url(#cbg)"/>
+  <rect width="1600" height="1100" fill="url(#clamp)"/>
+
+  <!-- measurement grid -->
+  <g stroke="#1b1d22" stroke-opacity="0.05" stroke-width="1">
+    <path d="M0 275 H1600 M0 550 H1600 M0 825 H1600"/>
+    <path d="M400 0 V1100 M800 0 V1100 M1200 0 V1100"/>
+  </g>
+
+  <!-- veil planes -->
+  <g clip-path="url(#chead)">
+    <path d="M482 330 Q740 250 998 350 L998 424 Q740 324 482 404 Z" fill="url(#cveil)"/>
+    <path d="M482 452 Q740 372 998 472 L998 546 Q740 446 482 526 Z" fill="url(#cveil2)"/>
+    <path d="M482 574 Q740 494 998 594 L998 668 Q740 568 482 648 Z" fill="url(#cveil)"/>
+    <path d="M482 696 Q740 616 998 716 L998 790 Q740 690 482 770 Z" fill="url(#cveil2)"/>
+  </g>
+
+  <!-- head outline -->
+  <ellipse cx="740" cy="560" rx="258" ry="336" fill="none" stroke="#1b1d22" stroke-opacity="0.42" stroke-width="2"/>
+  <ellipse cx="740" cy="560" rx="302" ry="386" fill="none" stroke="#2f4ac7" stroke-opacity="0.32" stroke-width="1.5" stroke-dasharray="5 13"/>
+
+  <!-- contours -->
+  <g stroke="#1b1d22" stroke-opacity="0.14" stroke-width="1">
+    <path d="M482 560 H998"/><path d="M740 224 V896"/>
+  </g>
+  <g stroke="#2f4ac7" stroke-opacity="0.34" stroke-width="1.4" fill="none">
+    <path d="M494 430 Q740 368 986 430"/>
+    <path d="M494 690 Q740 752 986 690"/>
+  </g>
+
+  <!-- features -->
+  <g stroke="#1b1d22" fill="none" stroke-linecap="round">
+    <path d="M630 505 q28 -20 56 0" stroke-opacity="0.55" stroke-width="4"/>
+    <path d="M794 505 q28 -20 56 0" stroke-opacity="0.55" stroke-width="4"/>
+    <path d="M674 690 q66 36 132 0" stroke-opacity="0.32" stroke-width="2.8"/>
+  </g>
+
+  <!-- landmarks -->
+  <g fill="#2f4ac7">
+    <circle cx="482" cy="560" r="8"/><circle cx="998" cy="560" r="8"/>
+    <circle cx="740" cy="224" r="8"/><circle cx="740" cy="896" r="8"/>
+    <circle cx="630" cy="505" r="6"/><circle cx="686" cy="505" r="6"/>
+    <circle cx="794" cy="505" r="6"/><circle cx="850" cy="505" r="6"/>
+    <circle cx="740" cy="612" r="6"/><circle cx="674" cy="690" r="6"/><circle cx="806" cy="690" r="6"/>
+  </g>
+
+  <!-- readout panel -->
+  <g fill="none" stroke="#1b1d22" stroke-opacity="0.22" stroke-width="1.4">
+    <rect x="1180" y="330" width="248" height="58"/>
+    <rect x="1180" y="404" width="248" height="58"/>
+    <rect x="1180" y="478" width="248" height="58"/>
+  </g>
+  <g font-family="monospace" font-size="20" letter-spacing="3" fill="#5d6068">
+    <text x="1200" y="366">TRACKING</text>
+    <text x="1200" y="440">MATERIAL</text>
+    <text x="1200" y="514">MOTION</text>
+  </g>
+  <g fill="#2f4ac7">
+    <circle cx="1400" cy="359" r="6"/><circle cx="1400" cy="433" r="6"/><circle cx="1400" cy="507" r="6"/>
+  </g>
+
+  <!-- corner brackets -->
+  <g stroke="#b4724a" stroke-width="3.2" fill="none">
+    <path d="M70 150 h84 M70 150 v84"/><path d="M1530 150 h-84 M1530 150 v84"/>
+    <path d="M70 950 h84 M70 950 v-84"/><path d="M1530 950 h-84 M1530 950 v-84"/>
+  </g>
+
+  <g font-family="monospace" font-size="23" letter-spacing="4" fill="#5d6068">
+    <text x="70" y="110">FEATURED CASE STUDY — PREVIEW</text>
+    <text x="1530" y="110" text-anchor="end">SAMPLE CONTENT</text>
+    <text x="70" y="1020">FACE FILTER / VISUAL STUDY</text>
+    <text x="1530" y="1020" text-anchor="end">KARACHI · PK</text>
+  </g>
+</svg>

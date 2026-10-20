@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="8" fill="#f7f4ee"/>
+  <rect x="0.5" y="0.5" width="63" height="63" rx="7.5" fill="none" stroke="#1b1d22" stroke-opacity="0.16"/>
+
+  <!-- UA monogram -->
+  <path d="M15 18 v13 a9 9 0 0 0 18 0 v-13" fill="none" stroke="#1b1d22" stroke-width="4.2" stroke-linecap="round"/>
+  <path d="M39 46 L46 18 L53 46" fill="none" stroke="#2f4ac7" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M41.8 37.5 H50.2" fill="none" stroke="#2f4ac7" stroke-width="4.2" stroke-linecap="round"/>
+</svg>
